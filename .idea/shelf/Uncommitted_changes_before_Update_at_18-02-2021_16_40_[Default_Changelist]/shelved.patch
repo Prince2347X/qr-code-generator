@@ -1,0 +1,44 @@
+Index: qr_code_gen_in_function.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import pyqrcode\r\nfrom tkinter import *\r\nfrom PIL import ImageTk, Image\r\nimport time\r\n\r\ndef qr_code(data):\r\n    root = Tk()\r\n    canvas = Canvas(root, width=400, height=400)\r\n    canvas.pack()\r\n    code = pyqrcode.create(data)\r\n    code.png(f'qrcode{round(time.time())}.png', scale=8)\r\n    img_to_display = ImageTk.PhotoImage(Image.open(f\"qrcode{round(time.time())}.png\"))\r\n    canvas.create_image(40, 40, anchor=NW, image=img_to_display)\r\n    root.mainloop()\r\n\r\nif __name__ == \"__main__\":\r\n    data = input(\"Enter the data/link:\") # Or simply put the data here\r\n    qr_code(data)
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- qr_code_gen_in_function.py	(revision ab621dab2590e0f5a24b7a886eba65a57c849eaa)
++++ qr_code_gen_in_function.py	(date 1613646097611)
+@@ -8,11 +8,11 @@
+     canvas = Canvas(root, width=400, height=400)
+     canvas.pack()
+     code = pyqrcode.create(data)
+-    code.png(f'qrcode{round(time.time())}.png', scale=8)
+-    img_to_display = ImageTk.PhotoImage(Image.open(f"qrcode{round(time.time())}.png"))
++    code.png(f'qrcode{time.strftime("%Y%m%d")}.png', scale=8)
++    img_to_display = ImageTk.PhotoImage(Image.open(f'qrcode{time.strftime("%Y%m%d")}.png'))
+     canvas.create_image(40, 40, anchor=NW, image=img_to_display)
+     root.mainloop()
+ 
+ if __name__ == "__main__":
+-    data = input("Enter the data/link:") # Or simply put the data here
++    data = input("Enter the link:") # Or simply put the data here
+     qr_code(data)
+\ No newline at end of file
+Index: qr_code_gen.py
+===================================================================
+--- qr_code_gen.py	(revision ab621dab2590e0f5a24b7a886eba65a57c849eaa)
++++ qr_code_gen.py	(revision ab621dab2590e0f5a24b7a886eba65a57c849eaa)
+@@ -1,14 +0,0 @@
+-import pyqrcode
+-from tkinter import *
+-from PIL import ImageTk, Image
+-import time
+-
+-root = Tk()
+-canvas = Canvas(root, width=400, height=400)
+-canvas.pack()
+-data = input("Enter the link/data:")
+-code = pyqrcode.create(data)
+-img = code.png(f'qrcode{round(time.time())}.png', scale=8)
+-img_to_display = ImageTk.PhotoImage(Image.open(f"qrcode{round(time.time())}.png"))
+-canvas.create_image(40, 40, anchor=NW, image=img_to_display)
+-root.mainloop()
