@@ -26,9 +26,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d2e290b-8158-407a-aa65-736dd33487e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/qr_code_gen.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qr_code_gen_in_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/qr_code_gen_in_function.py" afterDir="false" />
+    <list default="true" id="2d2e290b-8158-407a-aa65-736dd33487e7" name="Default Changelist" comment="Fixed some errors...">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.qr_code_gen_in_function">
+  <component name="RunManager" selected="Python.qr_code_gen">
     <configuration name="date" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="QR-Code_gen" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,7 +121,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.qr_code_gen_in_function" />
         <item itemvalue="Python.date" />
       </list>
     </recent_temporary>
@@ -135,6 +134,14 @@
       <option name="presentableId" value="Default" />
       <updated>1612065222784</updated>
     </task>
+    <task id="LOCAL-00001" summary="Fixed some errors...">
+      <created>1613646868570</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613646868570</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,8 +166,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixed some errors..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed some errors..." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1613646913385">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1613646913385" />
     <state x="174" y="0" key="FileDocumentManager.FileCacheConflict" timestamp="1613360749826">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -189,14 +205,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="276" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1613644917558" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1613646888428">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1613646888428" />
     <state x="292" y="53" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1613358527173">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="292" y="53" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1613358527173" />
-    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1613646607593">
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1613647217804">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1613646607593" />
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1613647217804" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1613359883191">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
