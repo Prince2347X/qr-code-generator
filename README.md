@@ -1,6 +1,6 @@
 # QR-code-generator
-![](https://img.shields.io/github/languages/top/Prince2347X/url-shortner)
-![](https://img.shields.io/github/last-commit/Prince2347X/url-shortner)
+![](https://img.shields.io/github/languages/top/Prince2347X/qr-code-generator)
+![](https://img.shields.io/github/last-commit/Prince2347X/qr-code-generator)
 [![](https://img.shields.io/badge/By-Prince%20Raj-yellowgreen)](https://twitter.com/prince2347x)
 #### A simple python program to generate and display QR Code.
 
